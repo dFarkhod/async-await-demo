@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="1ContinueWith.cs" />
+    <Compile Remove="2TaskRun.cs" />
+    <Compile Remove="3ProgramSync.cs" />
+    <Compile Remove="3TaskRunDemo.cs" />
+    <Compile Remove="4ProgramAsync.cs" />
+    <Compile Remove="ProgramAsync.cs" />
+    <Compile Remove="ProgramSync.cs" />
+  </ItemGroup>
+
+</Project>
